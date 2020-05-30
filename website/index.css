@@ -1,0 +1,121 @@
+h1, h2 {
+  font-family: Georgia;
+  font-weight: 600;
+  margin: 0px;
+}
+
+p {
+  color:#707070;
+  margin: 0px;
+}
+
+img {
+  width: 100%;
+}
+
+.container-fluid{
+  padding: 0px;
+}
+
+/*header*/
+.logo {
+  margin: 30px;
+}
+
+.navbar a {
+  color: #323232;
+}
+
+.nav-item {
+  margin: 0px 10px;
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+.collapse {
+  justify-content:center;
+}
+
+/*about us*/
+.aboutus {
+  height: 420px;
+  background-color: #F5F5F5;
+}
+
+.aboutustext {
+  margin: 0px 70px;
+}
+
+.aboutustext h2 {
+  font-size: 22px;
+  color: #B22A30;
+  padding: 5px 0px;
+}
+
+.aboutustext h1 {
+  font-size: 30px;
+  padding: 5px 0px;
+}
+
+.aboutustext p {
+  padding-bottom: 15px;
+}
+
+.col-5 {
+  height: 420px;
+  background-image: url("./img/aboutus.png");
+}
+
+/*procuct*/
+.product {
+  padding: 54px 0px;
+}
+
+.product h1{
+  font-size: 30px;
+  color: #B22A30;
+  padding-bottom: 5px;
+}
+
+.product h2{
+  font-size: 22px;
+  padding: 15px 0px;
+}
+
+.product p{
+  padding-bottom: 5px;
+}
+
+.description, .product_detail {
+  padding-bottom: 30px;
+}
+
+.col-4, .col-6{
+  text-align: center;
+}
+
+/*footer*/
+.footer {
+  background-color: #707070;
+  padding: 5px 0px;
+}
+
+.footer p{
+  color : #FFFFFF;
+  text-align: center;
+}
+
+/*other*/
+
+.btn-underline {
+  color:#238651;
+  text-decoration:underline;
+}
+
+.btn-green {
+  padding: 5px 10px;
+  margin: 5px;
+  color: #FFFFFF;
+  background-color: #238651;
+  text-align: center;
+}
