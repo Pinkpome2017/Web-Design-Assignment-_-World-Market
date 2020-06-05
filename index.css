@@ -90,7 +90,7 @@ img {
   padding-bottom: 30px;
 }
 
-.col-4, .col-6{
+.col-md-4, .col-md-6, .col-12{
   text-align: center;
 }
 
@@ -118,4 +118,15 @@ img {
   color: #FFFFFF;
   background-color: #238651;
   text-align: center;
+}
+
+/*size*/
+
+@media screen and (max-width: 768px) {
+ .tofarlinkkang-1{
+   display:none;
+ }
+ .tofarlinkkang-2{
+   display:inline;
+ }
 }
